@@ -1,9 +1,10 @@
-## EXIF情報を追加した1:1の画像を作成
+# Image EXIF Adder for mac
+## EXIF情報を追加した1:1の画像を作成するアプリケーション
 
 #### ディレクトリ構成
 ```
 image/
-├── src/
+├── test/
 │   ├── single.py
 │   ├── multi.py
 │   ├── EXIF.py
@@ -17,7 +18,7 @@ image/
 │   │      ...
 │   └── image-n.jpg
 │
-├── GUI/
+├── src/
 │   ├── main.py
 │   ├── process.py
 │   ├── EXIF.py
@@ -42,7 +43,7 @@ image/
     python single.py
     ```
 
-- GUI/main.py
+- src/main.py
     GUIによりディレクトリの選択が可能
     画像ディレクトリおよび出力ディレクトリを選択することで、画像ディレクトリ内の全ての画像に対して処理がなされる。
     出力ディレクトリに処理を終えた画像が保存される。
